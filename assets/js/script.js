@@ -35,8 +35,10 @@ function randomComputerChoice() {
 }
 
 /**
- * Calculates the result based on input/output of choices made by the player
- * and the generated choice of teh computer
+ * Calculates the result (win, loss or draw) based on input made by the player
+ * and the generated choice of the computer,
+ * changes color of the result (win, loss or draw)
+ * increase the score for the winner or do nothing with the score if it's a draw
  */
 function gameResult() {
     if (computerChoice === playerChoice) {
