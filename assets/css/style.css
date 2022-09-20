@@ -14,8 +14,8 @@ div {
 }
 
 .game-buttons {
-    width: 30%;
-    margin: 20px auto;
+    width: 40%;
+    margin: 30px auto;
     display: flex;
     justify-content: space-around;
 }
@@ -25,4 +25,8 @@ div {
     color: antiquewhite;
     border: none;
     font-size: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
 }
