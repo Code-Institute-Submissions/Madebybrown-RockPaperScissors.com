@@ -3,7 +3,7 @@ let computer = document.getElementById('computer')
 let player = document.getElementById('player')
 let result = document.getElementById('result')
 
-// Game Choices
+// Game Choices + result
 let choices = document.querySelectorAll('button')
 let playerChoice
 let computerChoice
@@ -26,11 +26,9 @@ function randomComputerChoice() {
     
     if (randomChoice === 0) {
         computerChoice = 'rock'
-    }
-    if (randomChoice === 1) {
+    } else if (randomChoice === 1) {
         computerChoice = 'paper'
-    }
-    if (randomChoice === 2) {
+    } else if (randomChoice === 2) {
         computerChoice = 'scissors'
     }
     computer.innerHTML = computerChoice
@@ -43,23 +41,17 @@ function randomComputerChoice() {
 function gameResult() {
     if (computerChoice === playerChoice) {
         playResult = 'Draw!'
-    }
-    if (computerChoice === 'rock' && playerChoice === 'paper') {
+    } else if (computerChoice === 'rock' && playerChoice === 'paper') {
         playResult = 'You Win!'
-    }
-    if (computerChoice === 'rock' && playerChoice === 'scissors') {
+    } else if (computerChoice === 'rock' && playerChoice === 'scissors') {
         playResult = 'You Lost!'
-    }
-    if (computerChoice === 'paper' && playerChoice === 'rock') {
+    } else if (computerChoice === 'paper' && playerChoice === 'rock') {
         playResult = 'You Lost!'
-    }
-    if (computerChoice === 'paper' && playerChoice === 'scissors') {
+    } else if (computerChoice === 'paper' && playerChoice === 'scissors') {
         playResult = 'You Win!'
-    }
-    if (computerChoice === 'scissors' && playerChoice === 'rock') {
+    } else if (computerChoice === 'scissors' && playerChoice === 'rock') {
         playResult = 'You Win!'
-    }
-    if (computerChoice === 'scissors' && playerChoice === 'paper') {
+    } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
         playResult = 'You Lost!'
     }
 
