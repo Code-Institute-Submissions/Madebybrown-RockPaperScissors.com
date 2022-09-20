@@ -5,8 +5,8 @@ let result = document.getElementById('result')
 
 // Game Choices
 let choices = document.querySelectorAll('button')
-let usersChoice
-
+let playerChoice
+// Listens for clicks on each individual button
 choices.forEach(choice => choices.addEventListener('click', (event) => {
-    usersChoice = event.target.id
+    playerChoice = event.target.id
 }))
