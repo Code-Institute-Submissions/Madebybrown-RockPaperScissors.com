@@ -50,6 +50,49 @@ p {
     cursor: pointer;
 }
 
+#switch:after{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    top: 5px;
+    left: 7px;
+    border-radius: 50%;
+}
+
+.day{
+    background-color: whitesmoke;
+    color: #191919;
+}
+.day #switch{
+    background-color: whitesmoke
+}
+.day #switch:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}
+
+.day .game-wrapper {
+    background-color: #191919;
+    color: whitesmoke;
+}
+
+.day .fa-linkedin {
+    color: whitesmoke;
+}
+
+.day .fa-square-github {
+    color: whitesmoke;
+}
+
+.day .game-buttons button {
+    background-color: whitesmoke;
+    color: #191919;
+}
+
 /* Game Styles */
 
 .game-wrapper {
