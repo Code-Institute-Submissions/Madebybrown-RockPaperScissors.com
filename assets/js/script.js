@@ -41,23 +41,30 @@ function randomComputerChoice() {
 function gameResult() {
     if (computerChoice === playerChoice) {
         playResult = 'Draw!'
+        result.style.color = 'blue'
     } else if (computerChoice === 'rock' && playerChoice === 'paper') {
         playResult = 'You Win!'
+        result.style.color = 'green'
         parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'rock' && playerChoice === 'scissors') {
         playResult = 'You Lost!'
+        result.style.color = 'red'
         parseInt(computerScore.innerHTML++)
     } else if (computerChoice === 'paper' && playerChoice === 'rock') {
         playResult = 'You Lost!'
+        result.style.color = 'red'
         parseInt(computerScore.innerHTML++)
     } else if (computerChoice === 'paper' && playerChoice === 'scissors') {
         playResult = 'You Win!'
+        result.style.color = 'green'
         parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'scissors' && playerChoice === 'rock') {
         playResult = 'You Win!'
+        result.style.color = 'green'
         parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
         playResult = 'You Lost!'
+        result.style.color = 'red'
         parseInt(computerScore.innerHTML++)
     }
 
