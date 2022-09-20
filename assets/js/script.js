@@ -42,7 +42,7 @@ function randomComputerChoice() {
  */
 function gameResult() {
     if (computerChoice === playerChoice) {
-        playResult = 'You choose the same!'
+        playResult = 'Draw!'
     }
     if (computerChoice === 'rock' && playerChoice === 'paper') {
         playResult = 'You Win!'
