@@ -50,6 +50,10 @@ p {
     cursor: pointer;
 }
 
+#switch:hover {
+    transform: scale(1.1);
+}
+
 #switch:after{
     content: "";
     position: absolute;
@@ -102,6 +106,11 @@ p {
     margin: 130px auto;
     padding: 20px;
     border-radius: 3%;
+    box-shadow: 5px 5px #6d6d6d;
+}
+
+.game-wrapper:hover {
+    transform: scale(1.01);
 }
 
 .game-area {
@@ -149,4 +158,12 @@ button:hover {
     margin: 30px;
     color: #191919;
     font-size: 30px;
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.2);
+}
+
+.fa-square-github:hover {
+    transform: scale(1.2);
 }
