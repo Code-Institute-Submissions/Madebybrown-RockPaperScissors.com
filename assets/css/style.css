@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: black;
+    background-color: antiquewhite;
+}
+
+div {
+    align-items: center;
+    text-align: center;
+}
+
+.game-buttons {
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-buttons button {
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    font-size: 20px;
+}

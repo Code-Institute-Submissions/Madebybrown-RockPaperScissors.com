@@ -11,17 +11,29 @@
     <title>RockPaperScissors.com</title>
 </head>
 <body>
-    
-    <h1>Rock Paper Scissors</h1>
-    <!-- Game Area -->
-    <h2>Computer: <span id="computer"></span></h2>
-    <h2>Player: <span id="player"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+    <div class="game-area">
+        <h1>Rock Paper Scissors</h1>
+        <!-- Game Area -->
+        <h2>Computer: <span id="computer"></span></h2>
+        <h2>Player: <span id="player"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+    </div>
+
+    <div class="score">
+        <p>
+            Computer: <span id="computer-score">0</span>
+        </p>
+        <p>
+            Player: <span id="player-score">0</span>
+        </p>
+    </div>
     
     <!-- Game Choices -->
-    <button id="rock"><i class="fa-solid fa-hand-back-fist"></i> Rock</button>
-    <button id="paper"><i class="fa-solid fa-hand"></i> Paper</button>
-    <button id="scissors"><i class="fa-solid fa-scissors"></i> Scissors</button>
+    <div class="game-buttons">
+        <button id="rock"><i class="fa-solid fa-hand-back-fist"></i> Rock</button>
+        <button id="paper"><i class="fa-solid fa-hand"></i> Paper</button>
+        <button id="scissors"><i class="fa-solid fa-scissors"></i> Scissors</button>
+    </div>
 
     <!-- Script links -->
     <script src="assets/js/script.js" charset="utf-8"></script>
