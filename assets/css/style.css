@@ -30,11 +30,11 @@ p {
     font-size: 15px;
 }
 
+/* Day and night switch */
 .day-night {
     width: 100%;
     height: 40px;
     position: relative;
-    
 }
 
 #switch{
@@ -94,7 +94,6 @@ p {
 }
 
 /* Game Styles */
-
 .game-wrapper {
     align-items: center;
     width: 30%;

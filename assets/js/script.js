@@ -43,20 +43,30 @@ function gameResult() {
         playResult = 'Draw!'
     } else if (computerChoice === 'rock' && playerChoice === 'paper') {
         playResult = 'You Win!'
+        parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'rock' && playerChoice === 'scissors') {
         playResult = 'You Lost!'
+        parseInt(computerScore.innerHTML++)
     } else if (computerChoice === 'paper' && playerChoice === 'rock') {
         playResult = 'You Lost!'
+        parseInt(computerScore.innerHTML++)
     } else if (computerChoice === 'paper' && playerChoice === 'scissors') {
         playResult = 'You Win!'
+        parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'scissors' && playerChoice === 'rock') {
         playResult = 'You Win!'
+        parseInt(playerScore.innerHTML++)
     } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
         playResult = 'You Lost!'
+        parseInt(computerScore.innerHTML++)
     }
 
     result.innerHTML = playResult
 }
+
+// Game score
+let playerScore = document.getElementById('player-score')
+let computerScore = document.getElementById('computer-score')
 
 // Day and Night Switch
 document.getElementById("switch").addEventListener("click", function(){
