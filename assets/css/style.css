@@ -42,6 +42,13 @@ i {
     position: relative;
 }
 
+#switch-label {
+    right: 0;
+    position: absolute;
+    font-size: 8px;
+    top: 50px;
+}
+
 #switch{
     -webkit-appearance: none;
     appearance: none;
