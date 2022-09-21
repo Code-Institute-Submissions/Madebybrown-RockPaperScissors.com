@@ -70,11 +70,11 @@ function gameResult() {
         parseInt(computerScore.innerHTML++)
     }
 
-    if (playerScore.innerHTML === "5") {
-        alert(`You're a winner! Refresh the page to play again.`)
-    } else if (computerScore.innerHTML === "5") {
-        alert(`I'm sorry, you lost, Refresh the page to play again.`)
-    }
+    // if (playerScore.innerHTML === "5") {
+    //     alert(`You're a winner! Refresh the page to play again.`)
+    // } else if (computerScore.innerHTML === "5") {
+    //     alert(`I'm sorry, you lost, Refresh the page to play again.`)
+    // }
 
     result.innerHTML = playResult
 }

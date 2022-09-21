@@ -30,6 +30,11 @@ p {
     font-size: 15px;
 }
 
+i {
+    font-size: 20px;
+    padding: 10px;
+}
+
 /* Day and night switch */
 .day-night {
     width: 100%;
@@ -240,6 +245,20 @@ button:hover {
 
     h1 {
         font-size: 24px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    i {
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    i {
+        font-size: 15px;
     }
 }
 
@@ -248,6 +267,10 @@ button:hover {
     .game-wrapper {
         margin-top: 60px;
     }
+
+    i {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -255,6 +278,10 @@ button:hover {
     h1 {
         font-size: 23px;
         margin-top: 25px;
+    }
+    
+    i {
+        font-size: 14px;
     }
 }
 
@@ -270,5 +297,9 @@ button:hover {
     h1 {
         font-size: 20px;
         margin-top: 25px;
+    }
+
+    i {
+        font-size: 12px;
     }
 }
