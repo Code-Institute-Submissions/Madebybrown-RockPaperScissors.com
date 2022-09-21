@@ -1,4 +1,4 @@
-// Game Area
+// Game Area variables
 let computer = document.getElementById('computer')
 let player = document.getElementById('player')
 let result = document.getElementById('result')
@@ -70,6 +70,12 @@ function gameResult() {
         parseInt(computerScore.innerHTML++)
     }
 
+    if (playerScore.innerHTML === "5") {
+        alert(`You're a winner! Refresh the page to play again.`)
+    } else if (computerScore.innerHTML === "5") {
+        alert(`I'm sorry, you lost, Refresh the page to play again.`)
+    }
+
     result.innerHTML = playResult
 }
 
@@ -77,7 +83,7 @@ function gameResult() {
 let playerScore = document.getElementById('player-score')
 let computerScore = document.getElementById('computer-score')
 
-// Day and Night Switch
+// Day and Night Switch - Credits in readme.md
 document.getElementById("switch").addEventListener("click", function(){
     document.getElementsByTagName('body')[0].classList.toggle("day");
 });
