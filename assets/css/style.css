@@ -163,8 +163,13 @@ button:hover {
     text-align: center;
 }
 
+.socials p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
 .fa-linkedin, .fa-square-github {
-    margin: 30px;
+    margin: 10px 10px 0 10px;
     color: #191919;
     font-size: 30px;
 }
@@ -187,6 +192,12 @@ button:hover {
 @media screen and (max-width: 1024px) {
     .game-wrapper {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px), screen and (max-height: 600px) {
+    .game-wrapper {
+        margin: 30px auto;
     }
 }
 
@@ -228,6 +239,11 @@ button:hover {
     .game-buttons {
         width: 80%;
     }
+
+    .socials p {
+        font-size: 10px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -253,6 +269,11 @@ button:hover {
         font-size: 16px;
 
     }
+
+    .socials p {
+        font-size: 9px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -271,6 +292,11 @@ button:hover {
     i {
         font-size: 15px;
     }
+    
+    .socials p {
+        font-size: 8px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -282,6 +308,11 @@ button:hover {
     
     i {
         font-size: 14px;
+    }
+
+    .socials p {
+        font-size: 7px;
+        margin-top: 5px;
     }
 }
 
@@ -301,5 +332,22 @@ button:hover {
 
     i {
         font-size: 12px;
+    }
+
+    .socials p {
+        font-size: 7px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    i {
+        font-size: 10px;
+    }
+    
+    .socials p {
+        font-size: 6px;
+        margin-top: 2px;
     }
 }

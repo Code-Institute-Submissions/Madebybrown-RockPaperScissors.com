@@ -1,3 +1,20 @@
+<h1 align="center">RockPaperScissors.com</h1>
+
+## Features
+- Header
+    - 
+- Day and night switch
+    -
+- Game results
+    -
+- Scoreboard
+    -
+- Game options
+    -
+- Footer
+    - 
+
+
 ## Credits
 - [Rock, Paper & Scissors](https://sebhastian.com/rock-paper-scissors-javascript/)
 - [Rock, Paper & Scissors - 2](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
