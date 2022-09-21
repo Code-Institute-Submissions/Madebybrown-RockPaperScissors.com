@@ -48,10 +48,12 @@ p {
     border-radius: 20px;
     outline: none;
     cursor: pointer;
+    box-shadow: 5px 5px #6d6d6d;
 }
 
 #switch:hover {
     transform: scale(1.1);
+    box-shadow: 2px 2px #6d6d6d;
 }
 
 #switch:after{
@@ -111,6 +113,7 @@ p {
 
 .game-wrapper:hover {
     transform: scale(1.01);
+    box-shadow: 2px 2px #6d6d6d;
 }
 
 .game-area {
@@ -142,6 +145,7 @@ button {
 
 button:hover {
     transform: scale(1.2);
+    box-shadow: 2px 2px #6d6d6d;
 }
 
 /* Footer */

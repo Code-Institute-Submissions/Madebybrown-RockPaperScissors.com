@@ -73,7 +73,7 @@ function gameResult() {
     result.innerHTML = playResult
 }
 
-// Game score
+// Game score variables
 let playerScore = document.getElementById('player-score')
 let computerScore = document.getElementById('computer-score')
 
