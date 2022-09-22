@@ -1,38 +1,38 @@
 // Game Area variables
-let computer = document.getElementById('computer')
-let player = document.getElementById('player')
-let result = document.getElementById('result')
+let computer = document.getElementById('computer');
+let player = document.getElementById('player');
+let result = document.getElementById('result');
 
 // Game Choices + result
-let choices = document.querySelectorAll('button')
-let playerChoice
-let computerChoice
-let playResult
+let choices = document.querySelectorAll('button');
+let playerChoice;
+let computerChoice;
+let playResult;
 
 // Listens for clicks on each individual button and displays the 
 // inner html of the button that was clicked in the player field
 choices.forEach(choice => choice.addEventListener('click', (event) => {
-    playerChoice = event.target.id
-    player.innerHTML = playerChoice
-    randomComputerChoice()
-    gameResult()
-}))
+    playerChoice = event.target.id;
+    player.innerHTML = playerChoice;
+    randomComputerChoice();
+    gameResult();
+}));
 
 /**
  * Creates a random number between 0 and 2, each number is connected to either rock, paper or scissors
  *  */
 function randomComputerChoice() {
-    let randomChoice = Math.floor(Math.random() * 3)
+    let randomChoice = Math.floor(Math.random() * 3);
     
     if (randomChoice === 0) {
-        computerChoice = 'rock'
+        computerChoice = 'rock';
     } else if (randomChoice === 1) {
-        computerChoice = 'paper'
+        computerChoice = 'paper';
     } else if (randomChoice === 2) {
-        computerChoice = 'scissors'
+        computerChoice = 'scissors';
     }
-    computer.innerHTML = computerChoice
-}
+    computer.innerHTML = computerChoice;
+};
 
 /**
  * Calculates the result (win, loss or draw) based on input made by the player
@@ -42,32 +42,32 @@ function randomComputerChoice() {
  */
 function gameResult() {
     if (computerChoice === playerChoice) {
-        playResult = 'Draw!'
-        result.style.color = 'blue'
+        playResult = 'Draw!';
+        result.style.color = 'blue';
     } else if (computerChoice === 'rock' && playerChoice === 'paper') {
-        playResult = 'You Win!'
-        result.style.color = 'green'
-        parseInt(playerScore.innerHTML++)
+        playResult = 'You Win!';
+        result.style.color = 'green';
+        parseInt(playerScore.innerHTML++);
     } else if (computerChoice === 'rock' && playerChoice === 'scissors') {
-        playResult = 'You Lost!'
-        result.style.color = 'red'
-        parseInt(computerScore.innerHTML++)
+        playResult = 'You Lost!';
+        result.style.color = 'red';
+        parseInt(computerScore.innerHTML++);
     } else if (computerChoice === 'paper' && playerChoice === 'rock') {
-        playResult = 'You Lost!'
-        result.style.color = 'red'
-        parseInt(computerScore.innerHTML++)
+        playResult = 'You Lost!';
+        result.style.color = 'red';
+        parseInt(computerScore.innerHTML++);
     } else if (computerChoice === 'paper' && playerChoice === 'scissors') {
-        playResult = 'You Win!'
-        result.style.color = 'green'
-        parseInt(playerScore.innerHTML++)
+        playResult = 'You Win!';
+        result.style.color = 'green';
+        parseInt(playerScore.innerHTML++);
     } else if (computerChoice === 'scissors' && playerChoice === 'rock') {
-        playResult = 'You Win!'
-        result.style.color = 'green'
-        parseInt(playerScore.innerHTML++)
+        playResult = 'You Win!';
+        result.style.color = 'green';
+        parseInt(playerScore.innerHTML++);
     } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
-        playResult = 'You Lost!'
-        result.style.color = 'red'
-        parseInt(computerScore.innerHTML++)
+        playResult = 'You Lost!';
+        result.style.color = 'red';
+        parseInt(computerScore.innerHTML++);
     }
 
     // if (playerScore.innerHTML === "5") {
@@ -76,12 +76,12 @@ function gameResult() {
     //     alert(`I'm sorry, you lost, Refresh the page to play again.`)
     // }
 
-    result.innerHTML = playResult
+    result.innerHTML = playResult;
 }
 
 // Game score variables
-let playerScore = document.getElementById('player-score')
-let computerScore = document.getElementById('computer-score')
+  let playerScore = document.getElementById('player-score');
+let computerScore = document.getElementById('computer-score');
 
 // Day and Night Switch - Credits in readme.md
 document.getElementById("switch").addEventListener("click", function(){

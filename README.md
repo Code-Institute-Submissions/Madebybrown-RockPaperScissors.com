@@ -1,6 +1,8 @@
 <h1 align="center">RockPaperScissors.com</h1>
 
 ## Features
+- Wireframe
+    -
 - Header
     - 
 - Day and night switch
