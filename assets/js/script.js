@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // Game Area variables
 let computer = document.getElementById('computer');
 let player = document.getElementById('player');
@@ -32,7 +34,7 @@ function randomComputerChoice() {
         computerChoice = 'scissors';
     }
     computer.innerHTML = computerChoice;
-};
+}
 
 /**
  * Calculates the result (win, loss or draw) based on input made by the player
@@ -70,20 +72,14 @@ function gameResult() {
         parseInt(computerScore.innerHTML++);
     }
 
-    // if (playerScore.innerHTML === "5") {
-    //     alert(`You're a winner! Refresh the page to play again.`)
-    // } else if (computerScore.innerHTML === "5") {
-    //     alert(`I'm sorry, you lost, Refresh the page to play again.`)
-    // }
-
     result.innerHTML = playResult;
 }
 
 // Game score variables
-  let playerScore = document.getElementById('player-score');
+let playerScore = document.getElementById('player-score');
 let computerScore = document.getElementById('computer-score');
 
 // Day and Night Switch - Credits in readme.md
 document.getElementById("switch").addEventListener("click", function(){
-    document.getElementsByTagName('body')[0].classList.toggle("day");
+document.getElementsByTagName('body')[0].classList.toggle("day");
 });
