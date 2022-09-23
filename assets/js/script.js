@@ -79,6 +79,16 @@ function gameResult() {
 let playerScore = document.getElementById('player-score');
 let computerScore = document.getElementById('computer-score');
 
+function restartGame() {
+    result.innerHTML = "";
+    computerScore.innerHTML = 0;
+    playerScore.innerHTML = 0;
+    computer.innerHTML = "";
+    player.innerHTML = "";
+}
+
+restartBtn.addEventListener('click', restartGame);
+
 // Day and Night Switch - Credits in readme.md
 document.getElementById("switch").addEventListener("click", function(){
 document.getElementsByTagName('body')[0].classList.toggle("day");
