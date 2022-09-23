@@ -53,6 +53,11 @@ i {
     box-shadow: 5px 5px #6d6d6d;
 }
 
+#restartBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px #6d6d6d;
+}
+
 /* Day and night switch */
 .day-night {
     width: 100%;
@@ -125,6 +130,11 @@ i {
 }
 
 .day .game-buttons button {
+    background-color: whitesmoke;
+    color: #191919;
+}
+
+.day #restartBtn {
     background-color: whitesmoke;
     color: #191919;
 }
