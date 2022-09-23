@@ -10,6 +10,12 @@ Before building anything it's crucial to plan ahead to steer clear of any possib
 
 ![wireframe](assets/readmeimg/wireframe.jpg)
 
+## Game Area
+This is the finished look of the game!
+
+![Game Area White](assets/readmeimg/gameAreaStartWhite.png)
+![Game Area Black](assets/readmeimg/gameAreaStartBlack.png)
+
 ## Features
 - ### Header
 At the top of the game area on the page we have the [Restart button](#restart-button) to the left, The [Day & Night Switch](#day-and-night-switch)  to the right and the header in the middle, wich is used to clearly convey the name of the game, Rock Paper & Scissors. We have two styles of headers, which are adjusted based on the [Day & Night Switch](#day-and-night-switch) in the next segment.
