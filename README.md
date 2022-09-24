@@ -8,7 +8,7 @@
 ## Live Site
 [RockPaperScissors.com](https://madebybrown.github.io/RockPaperScissors.com/)
 
-## Social Links
+## Socials
 - [Repository](https://github.com/Madebybrown/TheFitnessHub.com.git)
 - [Linkedin](https://www.linkedin.com/in/alexander-jonsson-312a70248/)
 
@@ -145,16 +145,19 @@ At the top of the game area on the page, we have the [Restart button](#restart-b
 #### **HTML**
 
 The HTML passed validation without any issues.
+
 ![Validation HTML](assets/images/validationHtml.png)
 
 #### **CSS**
 
 CSS passed validation without any issues.
+
 ![Validation CSS](assets/images/validationCss.png)
 
 #### **Java Script**
 
 Script passed validation without any issues.
+
 ![Validation Javascript](assets/images/validationJshint.png)
 
 ### **Ligthhouse**
@@ -168,10 +171,12 @@ The first lighthouse scan came out too low in Accessibility and SEO, the best pr
 
 #### **Second Scan**
 By adding a label to the input element for the day and night switch and adding Aria-labels to the social links I managed to increase the Accessibility and SEO scores to 100 each.
+
 ![Validation Lighthouse Third Scan](assets/images/lighthouseThree.png)
 
 #### **Third Scan**
 After cleaning up my code and restructuring some javascript functions to be shorter I managed to increase the score of best practices to 100.
+
 ![Validation Lighthouse Fourth Scan](assets/images/lighthouseThree.png)
 
 ### **Responsiveness**
