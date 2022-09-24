@@ -177,7 +177,7 @@ By adding a label to the input element for the day and night switch and adding A
 #### **Third Scan**
 After cleaning up my code and restructuring some javascript functions to be shorter I managed to increase the score of best practices to 100.
 
-![Validation Lighthouse Fourth Scan](assets/readmeimg/lighthouseThree.png)
+![Validation Lighthouse Fourth Scan](assets/readmeimg/lighthouseFour.png)
 
 ### **Responsiveness**
 - I tested the responsive design with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
@@ -197,7 +197,7 @@ I've tried using the website on google Chrome, Microsoft Edge, and Firefox witho
 ### **Bugs & Fixes**
 In the process of developing the game buttons, I encountered a problem with the (i) elements used to add FontAwesome icons to the buttons didn't respond when clicked on and the players result ended up blank and the result was undefined, I solved this by removing the icons from the buttons.
 
-![Validation Lighthouse Fourth Scan](assets/readmeimg/undefined.png)
+![Bug](assets/readmeimg/undefined.png)
 
 ## Deployment
 
