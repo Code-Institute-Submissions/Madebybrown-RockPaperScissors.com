@@ -12,6 +12,9 @@
 - [Repository](https://github.com/Madebybrown/TheFitnessHub.com.git)
 - [Linkedin](https://www.linkedin.com/in/alexander-jonsson-312a70248/)
 
+## **Key Project Goals**
+To develop a site that is easy to understand and teaches the user the basic rules of the game *Rock Paper & Siccors*.
+
 ## Table Of Contents
 - [Wireframe](#wireframe)
 - [Game Area](#game-area)
