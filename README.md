@@ -146,38 +146,38 @@ At the top of the game area on the page, we have the [Restart button](#restart-b
 
 The HTML passed validation without any issues.
 
-![Validation HTML](assets/images/validationHtml.png)
+![Validation HTML](assets/readmeimg/validationHtml.png)
 
 #### **CSS**
 
 CSS passed validation without any issues.
 
-![Validation CSS](assets/images/validationCss.png)
+![Validation CSS](assets/readmeimg/validationCss.png)
 
 #### **Java Script**
 
 Script passed validation without any issues.
 
-![Validation Javascript](assets/images/validationJshint.png)
+![Validation Javascript](assets/readmeimg/validationJshint.png)
 
 ### **Ligthhouse**
 #### **First Scan**
 The first lighthouse scan came out too low in Accessibility and SEO, the best practices score could also be higher.
 
-![Validation First Lighthouse scan](assets/images/lighthouseOne.png)
+![Validation First Lighthouse scan](assets/readmeimg/lighthouseOne.png)
 
 
-![Validation Lighthouse Fix Suggestions](assets/images/lighthouseTwo.png)
+![Validation Lighthouse Fix Suggestions](assets/readmeimg/lighthouseTwo.png)
 
 #### **Second Scan**
 By adding a label to the input element for the day and night switch and adding Aria-labels to the social links I managed to increase the Accessibility and SEO scores to 100 each.
 
-![Validation Lighthouse Third Scan](assets/images/lighthouseThree.png)
+![Validation Lighthouse Third Scan](assets/readmeimg/lighthouseThree.png)
 
 #### **Third Scan**
 After cleaning up my code and restructuring some javascript functions to be shorter I managed to increase the score of best practices to 100.
 
-![Validation Lighthouse Fourth Scan](assets/images/lighthouseThree.png)
+![Validation Lighthouse Fourth Scan](assets/readmeimg/lighthouseThree.png)
 
 ### **Responsiveness**
 - I tested the responsive design with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
@@ -197,7 +197,7 @@ I've tried using the website on google Chrome, Microsoft Edge, and Firefox witho
 ### **Bugs & Fixes**
 In the process of developing the game buttons, I encountered a problem with the (i) elements used to add FontAwesome icons to the buttons didn't respond when clicked on and the players result ended up blank and the result was undefined, I solved this by removing the icons from the buttons.
 
-![Validation Lighthouse Fourth Scan](assets/images/undefined.png)
+![Validation Lighthouse Fourth Scan](assets/readmeimg/undefined.png)
 
 ## Deployment
 
