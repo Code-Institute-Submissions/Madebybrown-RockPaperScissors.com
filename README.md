@@ -3,7 +3,7 @@
 ## Rock Paper & Scissors
 **RockPaperScissors.com** will help teach you the basics of the classic game called *Rock Paper & Scissors*. The random choices of the computer are meant to emulate another person playing against you to better prepare you for a real battle of *Rock Paper & Scissors!*
 
-![Home Page](assets/readmeimg/amIResponsive.png)
+![Home Page](assets/readmeimg/amiresponsive.png)
 
 ## Live Site
 [RockPaperScissors.com](https://madebybrown.github.io/RockPaperScissors.com/)
@@ -64,11 +64,11 @@ The finished design of the game is minimal to appear as clean as possible while 
 
 **Day Mode!**
 
-![Game Area White](assets/readmeimg/gameAreaStartWhite.png)
+![Game Area White](assets/readmeimg/gameareastartwhite.png)
 
 **Night Mode!**
 
-![Game Area Black](assets/readmeimg/gameAreaStartBlack.png)
+![Game Area Black](assets/readmeimg/gameareastartblack.png)
 
 ## Features
 ### **Header**
@@ -77,61 +77,60 @@ At the top of the game area on the page, we have the [Restart button](#restart-b
 #### **Restart Button**
 - The restart button is used to restart the game and empty all fields when the player chooses to do so.
 
-![Restart Button Black](assets/readmeimg/restartBtnBlack.png) ![Restart Button White](assets/readmeimg/restartBtnWhite.png)
+![Restart Button Black](assets/readmeimg/restartbtnblack.png) ![Restart Button White](assets/readmeimg/restartbtnwhite.png)
 
 #### **Day And Night Switch**
 - The function of the day and night switch is used to invert all the colors on the website depending on if the game is played during the day or at the night.
 
-![Day And Night Switch Black](assets/readmeimg/switchBlack.png) ![Day And Night Switch White](assets/readmeimg/switchWhite.png)
+![Day And Night Switch Black](assets/readmeimg/switchblack.png) ![Day And Night Switch White](assets/readmeimg/switchwhite.png)
 #### **Heading**
 ##### **Day Mode**
 - Heading of the game displayed in the day mode.
 
-![Header Black](assets/readmeimg/gameHeadingBlack.png)
+![Header Black](assets/readmeimg/gameheadingblack.png)
 
 ##### **Night Mode**
 - Heading of the game displayed in the night mode.
 
-![Header White](assets/readmeimg/gameHeadingWhite.png)
+![Header White](assets/readmeimg/gameheadingwhite.png)
 
 ## **Score Area**
 - The default score area displays what options the player and the computer chose this round, it also displays the result of those two choices. Points will be updated after every click.
 
-![Score Area Black](assets/readmeimg/scoreAreaBlack.png) ![Score Area White](assets/readmeimg/scoreAreaWhite.png)
+![Score Area Black](assets/readmeimg/scoreareablack.png) ![Score Area White](assets/readmeimg/scoreareawhite.png)
 
 ### **Win Result**
 - If you win the round, the result will look like this.
 
-![Result Win Black](assets/readmeimg/ResultWinBlack.png) ![Result Win White](assets/readmeimg/ResultWinWhite.png)
+![Result Win Black](assets/readmeimg/resultwinblack.png) ![Result Win White](assets/readmeimg/resultwinwhite.png)
 
 ### **Lose Result**
 - If you lose the round, the result will look like this.
 
-![Result Lose Black](assets/readmeimg/ResultLostBlack.png) ![Result Lose White](assets/readmeimg/ResultLostWhite.png)
+![Result Lose Black](assets/readmeimg/resultlostblack.png) ![Result Lose White](assets/readmeimg/resultlostwhite.png)
 
 ### **Draw Result**
 - If you and the computer chose the same option, the result will look like this.
 
-![Result Draw Black](assets/readmeimg/ResultDrawBlack.png) ![Result Draw White](assets/readmeimg/ResultDrawWhite.png)
+![Result Draw Black](assets/readmeimg/resultdrawblack.png) ![Result Draw White](assets/readmeimg/resultdrawwhite.png)
 
 
 ### **Options**
 - The option buttons display the choices that are available to the player.
 
-![Options Black](assets/readmeimg/optionsBlack.png) ![Options White](assets/readmeimg/optionsWhite.png)
+![Options Black](assets/readmeimg/optionsblack.png) ![Options White](assets/readmeimg/optionswhite.png)
 
 ### **Footer**
 - In the footer, we have both the links to the developers' socials and the rules for the game.
 
 #### **Social Links**
-
-
-![Social Links Black](assets/readmeimg/socialLinksBlack.png) ![Social Links White](assets/readmeimg/socialLinksWhite.png)
+r
+![Social Links Black](assets/readmeimg/sociallinksblack.png) ![Social Links White](assets/readmeimg/sociallinkswhite.png)
 
 #### **Game Rules**
 - An easy explanation of the rules of the game.
 
-![Game Rules Black](assets/readmeimg/gameRulesBlack.png) ![Game Rules White](assets/readmeimg/gameRulesWhite.png)
+![Game Rules Black](assets/readmeimg/gamerulesblack.png) ![Game Rules White](assets/readmeimg/gameruleswhite.png)
 
 ## **Features Left To Implement**
 - The ability to set the score limit
@@ -146,38 +145,38 @@ At the top of the game area on the page, we have the [Restart button](#restart-b
 
 The HTML passed validation without any issues.
 
-![Validation HTML](assets/readmeimg/validationHtml.png)
+![Validation HTML](assets/readmeimg/validationhtml.png)
 
 #### **CSS**
 
 CSS passed validation without any issues.
 
-![Validation CSS](assets/readmeimg/validationCss.png)
+![Validation CSS](assets/readmeimg/validationcss.png)
 
 #### **Java Script**
 
 Script passed validation without any issues.
 
-![Validation Javascript](assets/readmeimg/validationJshint.png)
+![Validation Javascript](assets/readmeimg/validationjshint.png)
 
 ### **Ligthhouse**
 #### **First Scan**
 The first lighthouse scan came out too low in Accessibility and SEO, the best practices score could also be higher.
 
-![Validation First Lighthouse scan](assets/readmeimg/lighthouseOne.png)
+![Validation First Lighthouse scan](assets/readmeimg/lighthouseone.png)
 
 
-![Validation Lighthouse Fix Suggestions](assets/readmeimg/lighthouseTwo.png)
+![Validation Lighthouse Fix Suggestions](assets/readmeimg/lighthousetwo.png)
 
 #### **Second Scan**
 By adding a label to the input element for the day and night switch and adding Aria-labels to the social links I managed to increase the Accessibility and SEO scores to 100 each.
 
-![Validation Lighthouse Third Scan](assets/readmeimg/lighthouseThree.png)
+![Validation Lighthouse Third Scan](assets/readmeimg/lighthousethree.png)
 
 #### **Third Scan**
 After cleaning up my code and restructuring some javascript functions to be shorter I managed to increase the score of best practices to 100.
 
-![Validation Lighthouse Fourth Scan](assets/readmeimg/lighthouseFour.png)
+![Validation Lighthouse Fourth Scan](assets/readmeimg/lighthousefour.png)
 
 ### **Responsiveness**
 - I tested the responsive design with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
@@ -205,33 +204,33 @@ In the process of developing the game buttons, I encountered a problem with the 
 - The website was deployed using GitHub
 1. Enter repositories
 
-![Repository](assets/readmeimg/deployStepOne.png)
+![Repository](assets/readmeimg/deploystepone.png)
 
 
 ### **Step Two**
 2. Locate RockPaperScissors.com and click it
 
-![The Fitness Hub](assets/readmeimg/deployStepTwo.png)
+![The Fitness Hub](assets/readmeimg/deploysteptwo.png)
 
 ### **Step Three**
 3. Go to settings
 
-![Settings](assets/readmeimg/deployStepThree.png)
+![Settings](assets/readmeimg/deploystepthree.png)
 
 ### **Step Four**
 4. On the left-hand side is a section called Pages, click it
 
-![Pages](assets/readmeimg/deployStepFour.png)
+![Pages](assets/readmeimg/deploystepfour.png)
 
 ### **Step Five**
 5. Select the Branch to be "Main" and click save
 
-![Branch](assets/readmeimg/deployStepFive.png)
+![Branch](assets/readmeimg/deploystepfive.png)
 
 ### **Step Six**
 6. Now wait a few minutes for GitHub to build and deploy your site then refresh the page and at the top of the Pages section you will find the link to your deployed website.
 
-![Deployd](assets/readmeimg/deployStepSix.png)
+![Deployd](assets/readmeimg/deploystepsix.png)
 
 ## Technologies Used
 - [HTML](https://sv.wikipedia.org/wiki/HTML)
