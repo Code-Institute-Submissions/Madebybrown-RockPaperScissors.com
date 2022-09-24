@@ -197,7 +197,7 @@ I also tested the website on iPhone 7, 8, and 13 pro, without any known issues.
 I've tried using the website on google Chrome, Microsoft Edge, and Firefox without any issues.
 
 ### **Bugs & Fixes**
-In the process of developing the game buttons, I encountered a problem with the (i) elements used to add FontAwesome icons to the buttons didn't respond when clicked on and the players result ended up blank and the result was undefined, I solved this by removing the icons from the buttons.
+In the process of developing the game buttons, I encountered a problem with the icons I've added to the buttons, they didn't respond when clicked on so the players output ended up blank and the results output was "undefined", I solved this by removing the icons from the buttons.
 
 ![Bug](assets/readmeimg/undefined.png)
 
