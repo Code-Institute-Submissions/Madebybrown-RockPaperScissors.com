@@ -5,8 +5,12 @@
 
 ![Home Page](assets/readmeimg/amIResponsive.png)
 
-## Links
-- 
+## Live Site
+[RockPaperScissors.com](https://madebybrown.github.io/RockPaperScissors.com/)
+
+## Social Links
+- [Repository](https://github.com/Madebybrown/TheFitnessHub.com.git)
+- [Linkedin](https://www.linkedin.com/in/alexander-jonsson-312a70248/)
 
 ## Table Of Contents
 - 
